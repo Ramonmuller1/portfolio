@@ -1,0 +1,19 @@
+body{
+    background-image: url(Monaco2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+hr{
+    height: 5px;
+    width: 100%;
+    color: black;
+    }
+
+.comeco-div
+{
+    text-align: center;
+}
+.projetos-div{
+    text-align: right;
+}
