@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     background-image: url(Monaco2.png);
     background-repeat: no-repeat;
@@ -5,15 +9,40 @@ body{
     background-position: center;
 }
 hr{
-    height: 5px;
+    height: 15px;
     width: 100%;
     color: black;
-    }
-
-.comeco-div
-{
-    text-align: center;
 }
 .projetos-div{
     text-align: right;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    background-color: rgb(245, 245, 186);
+    background-size: 100%;
+}
+header ul{
+    display: flex;
+    gap: 5px;
+    list-style: none;
+}
+header a{
+    text-decoration: overline underline ;
+    color: black;
+    padding: 20px 20px;
+}
+.section{
+    border-bottom: 10px solid  rgb(245, 245, 186); 
+    padding: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+.direita{
+    padding: 0px 60px ;
+}
+.direita img{
+    box-shadow: 20px 20px 10px rgba( 0 , 0 , 0 , 0.5);
+    border-radius: 10%;
 }
