@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman' ;
+}
+body{
+    background-image: url(Mafia_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.projetos-div{
+    text-align: right;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    background-color: black;
+    background-size: 100%;}
+header ul{
+    display: flex;
+    gap: 20px 20px;
+    list-style: none;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 8px;
+    background-color:rgb(34 , 34 , 34);
+    border-radius: 10%;
+}
+.section{
+        /*Caso precise editar o tamanha da section, basta tirar a função 
+        border de dentro do comentário, para facilitará na visualização da 
+        section durante a edição. Porém recolocá-lo dentro de comentário
+        após a finalização da edição.*/
+    /* border-bottom: 10px solid  black;  */
+    padding: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+.direita{
+    padding: 0px 60px ;
+}
+.direita img{
+    box-shadow: 20px 20px 10px rgba(0, 0, 0, 1);
+    border-radius: 10%;
+}
+.logo{
+    color:white;
+    padding: 5px 8px;
+    background-color: rgb(34, 34, 34);
+    border-radius: 7%;
+    font-size: 24px;
+}
+ #projetos{
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    
+    flex-wrap: wrap;
+}
+.PROJETOSH2{
+    text-align: center;
+}
+.projeto{
+    background-color: black;
+    width: 25%;
+    padding: 15px;
+}
+
+
+
+
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
